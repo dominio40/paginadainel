@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(4, 167, 243);
+}
+
+.menu{
+   list-style: none;
+   padding: 0;
+   width: 90%;
+   max-width: 1000px;
+   margin: auto;
+   opacity: 100%;
+
+}
+
+.menu li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding: 20px;
+   display: block;
+}
+
+.menu li{
+   display: inline-block;
+   text-align: center;
+
+}
+
+.menu ul li a:hover{
+   background: rgb(170, 19, 19);
+}
+
+ body {
+   background-image:linear-gradient(to bottom , rgb(0 0 0 / .40) , rgb(0 0 0 / .40) ), url("mclaren-720s.jpg");
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-position: center center;
+   height: 400px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .centrado {
+   text-align: center;
+   height: 80px;
+ 
+}
+
+.xd{
+   color: rgb(187, 198, 204);
+   font-size: 20;
+}
+
+.xd-1 {
+   font-size: 30px;
+   color: dimgray;
+   transition: all 1s ease-in-out;
+ }
+ .xd-1:hover {
+   cursor: pointer;
+   transform: scale(0.9);
+   color: #000022;
+ }
+
+ *{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+
+ .xd-3 {
+ margin-top: 50px;
+ }
+
+.container-clock {
+  text-align: left;
+  ;
+}
+
+.container-clock h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.container-clock p {
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-clock h1{
+ color: #f19f07;
+}
+
+.container-clock p{
+  color: #f8d511;
+ }
